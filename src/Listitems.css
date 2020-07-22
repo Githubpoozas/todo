@@ -1,0 +1,41 @@
+.list {
+  margin: 20px;
+}
+
+.list p {
+  display: inline-block;
+  margin: 0;
+  position: relative;
+}
+.list button {
+  margin-left: 10px;
+}
+
+.list p input {
+  border: 0;
+}
+.list p .tooltip {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+
+  font-size: 12px;
+  bottom: 20px;
+  left: 0;
+  padding: 5px;
+}
+.list p:hover .tooltip {
+  visibility: visible;
+}
+
+.list p input:focus {
+  outline: 1px blue solid;
+}
+
+.listDon {
+  text-decoration: line-through;
+  color: red;
+}
